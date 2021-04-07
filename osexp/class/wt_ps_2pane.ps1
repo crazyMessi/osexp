@@ -1,0 +1,1 @@
+wt -p "Windows PowerShell" `; split-pane -p "Windows PowerShell"
