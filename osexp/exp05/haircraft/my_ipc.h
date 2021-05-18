@@ -33,8 +33,8 @@ int up(int sem_id);
 #define ROOM_2_CUS 2
 #define ROOM_2_SOFA 3
 #define SOFA_2_ROOM 4
-#define SOFA_TO_CHAIR 5
-#define CHAIR_TO_SOFA 6
+#define SOFA_2_CHAIR 5
+#define CHAIR_2_SOFA 6
 // #define CHAIR_SND
 // #define _SND
 // #define _SND
