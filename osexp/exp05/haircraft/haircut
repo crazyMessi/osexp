@@ -1,0 +1,8 @@
+./make.sh;
+./chair.e 1;
+./room.e;
+sleep(1);
+./sofa.e;
+sleep(1);
+./prod.e;
+
