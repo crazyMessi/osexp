@@ -13,11 +13,12 @@ void main()
 
     while (1)
     {
+        // printf("\ncount = %d\n",count);
         if (count == SOFASIZE)
         {
             printf("full,waiting for next section get ready");
             //full,waiting for a permission from next section
-            if (msgrcv(rcv_msq, &msg, MSG_SIZE, ROOM_2_SOFA, WAIT) > 0)
+            if (msgrcv(rcv_msq, &msg, MSG_SIZE,CHAIR_2_SOFA, WAIT) > 0)
             {
                 printf("custom %d leave sofa to chair\n", space[first]);
                 msg.mtype = SOFA_2_CHAIR;

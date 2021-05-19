@@ -21,5 +21,6 @@ void main()
             continue;
         }
         sleep(1);
+        printf("custom %d exit because no room\n",i);
     }
 }

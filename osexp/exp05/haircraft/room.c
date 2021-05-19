@@ -13,6 +13,7 @@ void main()
 
     while (1)
     {
+        // printf("\ncount = %d\n",count);
         if (count == ROOMSIZE)
         {
             printf("full,waiting for next section get ready");
