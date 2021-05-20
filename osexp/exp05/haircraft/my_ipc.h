@@ -35,17 +35,7 @@ int up(int sem_id);
 #define SOFA_2_ROOM 4
 #define SOFA_2_CHAIR 5
 #define CHAIR_2_SOFA 6
-// #define CHAIR_SND
-// #define _SND
-// #define _SND
-// #define _SND
-#define CUS_RCV_T 4
-#define ROOM_RCV_T 5
-#define SOFA_RCV_T 6
-// #define _RCV
-// #define _RCV
-// #define _RCV
-// #define _RCV
+
 #define BUFSZ 256
 #define OPEN_ALL IPC_CREAT | 0644
 

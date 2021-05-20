@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
             {               //报告父子进程进程号
                 printf("I am Child-ps process %d\nMy father is %d\n", getpid(), getppid());
                 printf("%d child will Running: \n", getpid()); /*子进程被键盘中断信号唤醒继续执行*/
-                status_2 = execve("/bin/ps", NULL, NULL);      //装入并执行新的程序
+                status_2 = execve("/bin/ls", argv, NULL);      //装入并执行新的程序
             }
             else
             {
