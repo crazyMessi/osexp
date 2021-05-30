@@ -32,6 +32,7 @@ int main(int argc,char*argv[]){
     request->mtext[0]=(char)kind;
     int i = 0;
     while(1){
+        printf("%d\n",i);
         int code =  msgsnd(msq_id,request,sizeof(char),MSG_FLG);
         down(cmtx_sem[kind]);
         down(pmtx_sem); 

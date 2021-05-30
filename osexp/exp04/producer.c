@@ -35,6 +35,7 @@ int main(int argc,char*argv[]){
     request->mtype = 1;
     int i = 0;
     while(1){
+        printf("%d\n",i);
         int code =msgrcv(msq_id,request,sizeof(char),MSGTYPE,MSG_FLG);
         char kind = request->mtext[0];       
         down(pmtx_sem);
