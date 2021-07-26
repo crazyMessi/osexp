@@ -3,4 +3,5 @@ void main(){
 }
 
 void test_interface(){
+    printf("无事发生");
 }
